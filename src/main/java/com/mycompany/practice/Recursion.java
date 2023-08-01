@@ -24,8 +24,8 @@ public class Recursion {
         char[] copy = new char[array.length - 2];
         System.arraycopy(array, 1, copy, 0, array.length - 2);
         return copy;
-    }
-
+    } 
+    
     public static int factorial(int n) {
         System.out.println(new Object() {
         }.getClass().getEnclosingMethod().getName());
@@ -38,7 +38,7 @@ public class Recursion {
 
     /**
      * The 3 parts of a recursive algorithm are called
-     * recursive operation stop condition
+     * recursive operation stop condition.
      * @param n
      * @return 
      */
